@@ -45,5 +45,11 @@ public String getEmail(User user) {
 
 ### 2. Dynamic Query Cost Limits
 
-### 3. Auditable Access Patterns
+```aiignore
+tbd
+```
 
+### 3. Auditable Access Patterns
+```aiignore
+tbd
+```
