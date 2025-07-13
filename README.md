@@ -44,12 +44,16 @@ public String getEmail(User user) {
 - Error thrown when user is not permitted, ensuring data is only transmitted on a "need-to-know" basis
 
 ### 2. Dynamic Query Cost Limits
-
 ```aiignore
 tbd
 ```
+- Idea is that Graphql can calculate amount of data extracted based on number of "leaf" nodes in response
+- Limit rate based on this
+- In comparison, for REST calls its difficult to narrow down how much to limit (many end points serving many data, vulnerable to scraping)
 
 ### 3. Auditable Access Patterns
 ```aiignore
 tbd
 ```
+- In REST its difficult to limit access to confidential data
+- Fine-grained access to track "who saw what", without exposing the confidential data itself (through request schemas) 
