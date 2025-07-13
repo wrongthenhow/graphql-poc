@@ -43,4 +43,7 @@ public String getEmail(User user) {
 - Scalable with increasing fields/roles
 - Error thrown when user is not permitted, ensuring data is only transmitted on a "need-to-know" basis
 
+### 2. Dynamic Query Cost Limits
+
+### 3. Auditable Access Patterns
 
